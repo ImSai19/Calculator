@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+}
+.calculator-body {
+    height: 25rem; 
+    width: 16rem;
+    border: 2px solid transparent;
+    border-radius: 6%;
+    background-color:transparent;
+    text-align: center;
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    box-shadow: 0px 0px 5px 0px rgb(255, 255, 255);
+}
+.display {
+    height: 60px;
+    width: 280px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-bottom: 20px; 
+    margin-top: 5px;
+    box-shadow: 0px 0px 5px 2px rgb(1, 165, 241);
+    background-color: transparent;  
+}
+.calculator-body .a button {
+    width: 50px; 
+    height: 50px; 
+    margin: 5px; 
+    border: none; 
+    background-color: transparent; 
+    color: white; 
+    font-size: 20px; 
+    cursor:pointer;
+    border-radius: 500px;
+    box-shadow: 0px 0px 10px 0px rgb(1, 165, 241); 
+}
+.calculator-body .a button:hover {
+    background-color: rgb(100, 100, 100);
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/158832686/photo/night-shot-of-lake.webp?b=1&s=170667a&w=0&k=20&c=EAN_0jw8M7mP3JsK3CXASWvUz9d4oyqiUACb0knb1Sg=);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+html{
+    height: 100%;
+}
